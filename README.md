@@ -39,11 +39,11 @@ A estrutura de pastas do projeto está organizada da seguinte maneira:
 ```bash
 Globo_Scraping/
 │
-├── craw.py           # Arquivo principal onde você inicia o web scraping 
-│        
-│
-├── requirements.txt  # Arquivo que lista todas as dependências do projeto
-└── README.md         # Este arquivo, contendo informações sobre o projeto e instruções de uso
+├── ── crawling/
+│   ├── craw.py # Arquivo principal onde você inicia o web scraping
+│   ├── requirements.txt  # Arquivo que lista todas as dependências do projeto
+└   ├── README.md         
+
 ```
 
 ## Technology Used:
