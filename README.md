@@ -20,13 +20,21 @@ Para utilizar este projeto, siga os passos abaixo:
 
 Após a instalação das dependências, você pode executar o arquivo craw.py para iniciar o scraping dos links da página alvo.
 
-Execute a ferramenta:
+Crawling de urls:
 ```bash
-  python3 craw.py https://www.globo.com/
+  python3 craw.py https://www.globo.com/ --urls 
 ```
-
-Demonstração de Filtragem e Testes de Parâmetros
+Filtragem de URL:
 ![image](https://github.com/user-attachments/assets/3be792a5-1010-4898-931a-98c4a893f32e)
+
+Crawling de emails:
+```bash
+  python3 craw.py https://www.globo.com/ --emais
+```
+Filtragem de Emails: 
+![image](https://github.com/user-attachments/assets/7e718377-c200-4caa-91fd-35e2c62cfa60)
+
+
 
 
 
